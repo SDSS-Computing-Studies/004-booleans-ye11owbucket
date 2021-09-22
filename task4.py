@@ -21,6 +21,6 @@ the sentence contains password
 
 n = str( input("Enter the password: "))
 if "password" in n:
-    print("This sentence contains password")
+    print("the sentence contains password")
 elif "password" not in n: 
-    print("This sentence does not contain password")
+    print("the sentence does not contain password")
