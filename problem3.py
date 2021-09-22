@@ -23,3 +23,19 @@
  Enter password: password
  Access denied
 """
+
+a = str( input("Enter username: "))
+if "notadmin" in a: 
+    print("invalid user")
+    exit()
+elif "admin" in a:
+    p = str( input("Enter password: "))
+else:
+    print("invalid user")
+    exit()
+if "12345password" in p:
+    print("access granted")
+else:
+    print("Access denied")
+
+
