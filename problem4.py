@@ -44,8 +44,8 @@ sidea = list1[0]
 sideb =list1[1]
 
 if (sidea**2)+(sideb**2) == (hypotenuse**2):
-    print("That is a right triangle")
+    print("that is a right triangle")
 elif (sidea**2)+(sideb**2) < (hypotenuse**2):
-    print("That is a obtuse triangle")
+    print("that is an obtuse triangle")
 elif (sidea**2)+(sideb**2) > (hypotenuse**2):
-    print("That is a acute triangle")
+    print("that is an acute triangle")

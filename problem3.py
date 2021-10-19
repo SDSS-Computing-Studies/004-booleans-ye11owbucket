@@ -31,7 +31,7 @@ else:
     print("invalid user")
     exit()
 if "12345password" == p:
-    print("access granted")
+    print("Access granted")
 else:
     print("Access denied")
 
