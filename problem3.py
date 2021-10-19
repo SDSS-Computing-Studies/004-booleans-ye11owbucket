@@ -24,15 +24,13 @@
  Access denied
 """
 
-a = str( input("Enter username: "))
-if "admin" == a:
-    p = str( input("Enter password: "))
-else:
+x = str(input("Enter a username: ")).strip()
+if x != "admin":
     print("invalid user")
     exit()
-if "12345password" == p:
+y = str(input("Enter a password: ")).strip()
+if y == "12345password":
     print("Access granted")
-else:
+elif y != "12345password":
     print("Access denied")
-
 
