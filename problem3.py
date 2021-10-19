@@ -25,15 +25,12 @@
 """
 
 a = str( input("Enter username: "))
-if "notadmin" in a: 
-    print("invalid user")
-    exit()
-elif "admin" in a:
+if "admin" == a:
     p = str( input("Enter password: "))
 else:
     print("invalid user")
     exit()
-if "12345password" in p:
+if "12345password" == p:
     print("access granted")
 else:
     print("Access denied")
